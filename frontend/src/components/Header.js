@@ -6,10 +6,10 @@ const Header = () => {
     return (
         <header>
             
-            <Navbar bg='light' variant='light' expand="lg" collapseOnSelect>
+            <Navbar bg='primary' variant='dark' expand="lg" collapseOnSelect>
                 <Container>
                     <LinkContainer to='/'>
-                        <Navbar.Brand>Origami Flower Shop</Navbar.Brand>
+                        <Navbar.Brand className='shop-title'>Origami Flower Shop</Navbar.Brand>
                     </LinkContainer>
                     
                     <Navbar.Toggle aria-controls='basic-navbar-nav' />
